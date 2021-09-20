@@ -14,15 +14,18 @@ class Emoticon {
     init(content: String){
         self.content = content
     }
-}
 
-class Emoticon2 {
+
+class Emoticon {
     var content : String
     
     init(content: String){
         self.content = content
     }
 }
+
+
+
 
 
 
