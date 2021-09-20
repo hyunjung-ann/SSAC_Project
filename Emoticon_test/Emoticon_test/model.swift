@@ -15,3 +15,17 @@ class Emoticon {
         self.content = content
     }
 }
+
+class Emoticon2 {
+    var content : String
+    
+    init(content: String){
+        self.content = content
+    }
+}
+
+
+
+
+
+

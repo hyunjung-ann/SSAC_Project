@@ -293,6 +293,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WdW-7A-wy5">
+                                <rect key="frame" x="32" y="296" width="350" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="G8N-bZ-AUi"/>
+                                    <constraint firstAttribute="height" constant="50" id="oRM-8b-rsv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YbS-oz-klH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
