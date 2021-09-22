@@ -6,20 +6,55 @@
 //
 
 import UIKit
+ 
+ //이모티콘 create하는 뷰에서 (이모티콘)데이터를 전달하는 함수를 포함하는 protocol 생성
+ protocol SendDataDelegate {
+    func sendData(data: Emoticon)
+ }
 
 class AddViewController: UIViewController {
-
-    @IBOutlet weak var AddItem: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var delegate: SendDataDelegate? //프로토콜 변수
+    var emoticonList: Emoticon?
+    var flag = 0
 
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var emoticonTextField: UITextField!
+    
+   override func viewDidLoad() {
+       super.viewDidLoad()
+
+       // Do any additional setup after loading the view.
+   }
+    
+    
+
+    //저장버튼
+    
+    @IBAction func Save(_ sender: UIBarButtonItem) {
+    
+    //텍스트 필드에 입력되있는 텍스트를 상수에 저장
+         let emoticon = emoticonTextField.text
+        
+        //새로운 이모티콘 인스턴스를 생성 -> 배열에 저장
+        //위 입력되있던 텍스트를 가져와서 새로운 이모티콘을 생성한 다음 배열에 저장
+        let newEmoticon = Emoticon.init(content: emoticon ?? "")
+       
+        
+        Emoticon.dummyEmoticonList.append(newEmoticon)
+        
+        dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func AddButton(_ sender: Any) {
+    //취소버튼
+    @IBAction func Close(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
+
+
     
+
+    
+
     /*
     // MARK: - Navigation
 
