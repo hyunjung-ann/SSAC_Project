@@ -7,40 +7,17 @@
 
 import UIKit
 
-//UITableViewDelegate : 테이블 뷰를 어떻게 보여줄 것인가 ?
+class FirstViewController: UIViewController, UITableViewDelegate,
+                           UITableViewDataSource {
+
+    //UITableViewDelegate : 테이블 뷰를 어떻게 보여줄 것인가 ?
 //UITableViewDataSource : 테이블 뷰의 셀은 총 몇 개? -> 두개의 프로토콜 최상단 추가
-class FirstViewController: UIViewController, UITableViewDelegate,UITableViewDataSource  {
-
-    let context = UIApplication
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-   
-    }
-    
-    //모든 항목을 가져와라 -> R
-    func getAllItems() {
-        //데이터베이스에서 이모티콘 모든 항목을 가져오기
-       // let items =
-        
-    }
-    
-    //항목을 생성하는 기능 -> C
-    func createItem(name: String) {
-        
-    }
-    
-    //항목을 삭제하는 기능 + 이모티콘 목록 불러옴 -> D
-    func deleteItem(item: Emoticon) {
-    
-    }
-    
-    //업데이트 + 이모티콘 목록 불러옴 -> U
-    func updateItem(item: Emoticon ){
-        
-    }
 
-    
+    }
+ 
 
 
     
@@ -54,14 +31,14 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
         //for : 셀의 위치를 ​​지정하는 색인 ​​경로, 항상 데이터 원본 개체에서 제공하는 인덱스 경로를 지정
         //cell: 아까 추가한 테이블 뷰 셀의 구분자(identifier)를 적는 곳 / 이 구분자를 통해 셀을 가져오고 그 셀을 재활용
         
-        let target = emoticons[indexPath.row]
+        let target = Emoticon.dummyEmoticonList[indexPath.row]
         cell.textLabel?.text = target.content
         
         return cell
     }
     
       func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return emoticons.count
+        return Emoticon.dummyEmoticonList.count
       }
     
     

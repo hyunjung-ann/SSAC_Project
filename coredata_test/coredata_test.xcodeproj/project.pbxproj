@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		147D5E2026F2ABBD006103FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E1F26F2ABBD006103FD /* AppDelegate.swift */; };
-		147D5E2226F2ABBD006103FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E2126F2ABBD006103FD /* SceneDelegate.swift */; };
-		147D5E2726F2ABBD006103FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E2526F2ABBD006103FD /* Main.storyboard */; };
-		147D5E2926F2ABC1006103FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E2826F2ABC1006103FD /* Assets.xcassets */; };
-		147D5E2C26F2ABC1006103FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E2A26F2ABC1006103FD /* LaunchScreen.storyboard */; };
-		147D5E3A26F47851006103FD /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E3926F47851006103FD /* AddViewController.swift */; };
-		147D5E4126F9D494006103FD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4026F9D494006103FD /* FirstViewController.swift */; };
-		147D5E4826FC78B9006103FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4626FC78B7006103FD /* Model.xcdatamodeld */; };
-		147D5E4B26FC79C8006103FD /* Emoticon+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4926FC79C8006103FD /* Emoticon+CoreDataClass.swift */; };
-		147D5E4E26FC8287006103FD /* Emoticon+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4D26FC8286006103FD /* Emoticon+CoreDataProperties.swift */; };
+		147D5E5C26FC8C88006103FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E5B26FC8C88006103FD /* AppDelegate.swift */; };
+		147D5E5E26FC8C88006103FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E5D26FC8C88006103FD /* SceneDelegate.swift */; };
+		147D5E6026FC8C88006103FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E5F26FC8C88006103FD /* ViewController.swift */; };
+		147D5E6326FC8C88006103FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E6126FC8C88006103FD /* Main.storyboard */; };
+		147D5E6626FC8C88006103FD /* coredata_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E6426FC8C88006103FD /* coredata_test.xcdatamodeld */; };
+		147D5E6826FC8C8E006103FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E6726FC8C8E006103FD /* Assets.xcassets */; };
+		147D5E6B26FC8C8E006103FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E6926FC8C8E006103FD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		147D5E1C26F2ABBD006103FD /* Emoticon_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoticon_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		147D5E1F26F2ABBD006103FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		147D5E2126F2ABBD006103FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		147D5E2626F2ABBD006103FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		147D5E2826F2ABC1006103FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		147D5E2B26F2ABC1006103FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		147D5E2D26F2ABC1006103FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		147D5E3926F47851006103FD /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		147D5E4026F9D494006103FD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		147D5E4726FC78B7006103FD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		147D5E4926FC79C8006103FD /* Emoticon+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emoticon+CoreDataClass.swift"; sourceTree = "<group>"; };
-		147D5E4D26FC8286006103FD /* Emoticon+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emoticon+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		147D5E5826FC8C88006103FD /* coredata_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coredata_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147D5E5B26FC8C88006103FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147D5E5D26FC8C88006103FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		147D5E5F26FC8C88006103FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147D5E6226FC8C88006103FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147D5E6526FC8C88006103FD /* coredata_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coredata_test.xcdatamodel; sourceTree = "<group>"; };
+		147D5E6726FC8C8E006103FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147D5E6A26FC8C8E006103FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147D5E6C26FC8C8E006103FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		147D5E1926F2ABBD006103FD /* Frameworks */ = {
+		147D5E5526FC8C88006103FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,75 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147D5E1326F2ABBD006103FD = {
+		147D5E4F26FC8C88006103FD = {
 			isa = PBXGroup;
 			children = (
-				147D5E4926FC79C8006103FD /* Emoticon+CoreDataClass.swift */,
-				147D5E4D26FC8286006103FD /* Emoticon+CoreDataProperties.swift */,
-				147D5E1E26F2ABBD006103FD /* Emoticon_test */,
-				147D5E1D26F2ABBD006103FD /* Products */,
+				147D5E5A26FC8C88006103FD /* coredata_test */,
+				147D5E5926FC8C88006103FD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		147D5E1D26F2ABBD006103FD /* Products */ = {
+		147D5E5926FC8C88006103FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				147D5E1C26F2ABBD006103FD /* Emoticon_test.app */,
+				147D5E5826FC8C88006103FD /* coredata_test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		147D5E1E26F2ABBD006103FD /* Emoticon_test */ = {
+		147D5E5A26FC8C88006103FD /* coredata_test */ = {
 			isa = PBXGroup;
 			children = (
-				147D5E1F26F2ABBD006103FD /* AppDelegate.swift */,
-				147D5E2126F2ABBD006103FD /* SceneDelegate.swift */,
-				147D5E4026F9D494006103FD /* FirstViewController.swift */,
-				147D5E3926F47851006103FD /* AddViewController.swift */,
-				147D5E2526F2ABBD006103FD /* Main.storyboard */,
-				147D5E2826F2ABC1006103FD /* Assets.xcassets */,
-				147D5E2A26F2ABC1006103FD /* LaunchScreen.storyboard */,
-				147D5E2D26F2ABC1006103FD /* Info.plist */,
-				147D5E4626FC78B7006103FD /* Model.xcdatamodeld */,
+				147D5E5B26FC8C88006103FD /* AppDelegate.swift */,
+				147D5E5D26FC8C88006103FD /* SceneDelegate.swift */,
+				147D5E5F26FC8C88006103FD /* ViewController.swift */,
+				147D5E6126FC8C88006103FD /* Main.storyboard */,
+				147D5E6726FC8C8E006103FD /* Assets.xcassets */,
+				147D5E6926FC8C8E006103FD /* LaunchScreen.storyboard */,
+				147D5E6C26FC8C8E006103FD /* Info.plist */,
+				147D5E6426FC8C88006103FD /* coredata_test.xcdatamodeld */,
 			);
-			path = Emoticon_test;
+			path = coredata_test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		147D5E1B26F2ABBD006103FD /* Emoticon_test */ = {
+		147D5E5726FC8C88006103FD /* coredata_test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 147D5E3026F2ABC1006103FD /* Build configuration list for PBXNativeTarget "Emoticon_test" */;
+			buildConfigurationList = 147D5E6F26FC8C8E006103FD /* Build configuration list for PBXNativeTarget "coredata_test" */;
 			buildPhases = (
-				147D5E1826F2ABBD006103FD /* Sources */,
-				147D5E1926F2ABBD006103FD /* Frameworks */,
-				147D5E1A26F2ABBD006103FD /* Resources */,
+				147D5E5426FC8C88006103FD /* Sources */,
+				147D5E5526FC8C88006103FD /* Frameworks */,
+				147D5E5626FC8C88006103FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Emoticon_test;
-			productName = Emoticon_test;
-			productReference = 147D5E1C26F2ABBD006103FD /* Emoticon_test.app */;
+			name = coredata_test;
+			productName = coredata_test;
+			productReference = 147D5E5826FC8C88006103FD /* coredata_test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		147D5E1426F2ABBD006103FD /* Project object */ = {
+		147D5E5026FC8C88006103FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					147D5E1B26F2ABBD006103FD = {
+					147D5E5726FC8C88006103FD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 147D5E1726F2ABBD006103FD /* Build configuration list for PBXProject "Emoticon_test" */;
+			buildConfigurationList = 147D5E5326FC8C88006103FD /* Build configuration list for PBXProject "coredata_test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,59 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 147D5E1326F2ABBD006103FD;
-			productRefGroup = 147D5E1D26F2ABBD006103FD /* Products */;
+			mainGroup = 147D5E4F26FC8C88006103FD;
+			productRefGroup = 147D5E5926FC8C88006103FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				147D5E1B26F2ABBD006103FD /* Emoticon_test */,
+				147D5E5726FC8C88006103FD /* coredata_test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		147D5E1A26F2ABBD006103FD /* Resources */ = {
+		147D5E5626FC8C88006103FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147D5E2C26F2ABC1006103FD /* LaunchScreen.storyboard in Resources */,
-				147D5E2926F2ABC1006103FD /* Assets.xcassets in Resources */,
-				147D5E2726F2ABBD006103FD /* Main.storyboard in Resources */,
+				147D5E6B26FC8C8E006103FD /* LaunchScreen.storyboard in Resources */,
+				147D5E6826FC8C8E006103FD /* Assets.xcassets in Resources */,
+				147D5E6326FC8C88006103FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		147D5E1826F2ABBD006103FD /* Sources */ = {
+		147D5E5426FC8C88006103FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147D5E4126F9D494006103FD /* FirstViewController.swift in Sources */,
-				147D5E4B26FC79C8006103FD /* Emoticon+CoreDataClass.swift in Sources */,
-				147D5E2026F2ABBD006103FD /* AppDelegate.swift in Sources */,
-				147D5E4826FC78B9006103FD /* Model.xcdatamodeld in Sources */,
-				147D5E3A26F47851006103FD /* AddViewController.swift in Sources */,
-				147D5E2226F2ABBD006103FD /* SceneDelegate.swift in Sources */,
-				147D5E4E26FC8287006103FD /* Emoticon+CoreDataProperties.swift in Sources */,
+				147D5E6626FC8C88006103FD /* coredata_test.xcdatamodeld in Sources */,
+				147D5E6026FC8C88006103FD /* ViewController.swift in Sources */,
+				147D5E5C26FC8C88006103FD /* AppDelegate.swift in Sources */,
+				147D5E5E26FC8C88006103FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		147D5E2526F2ABBD006103FD /* Main.storyboard */ = {
+		147D5E6126FC8C88006103FD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				147D5E2626F2ABBD006103FD /* Base */,
+				147D5E6226FC8C88006103FD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		147D5E2A26F2ABC1006103FD /* LaunchScreen.storyboard */ = {
+		147D5E6926FC8C8E006103FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				147D5E2B26F2ABC1006103FD /* Base */,
+				147D5E6A26FC8C8E006103FD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		147D5E2E26F2ABC1006103FD /* Debug */ = {
+		147D5E6D26FC8C8E006103FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		147D5E2F26F2ABC1006103FD /* Release */ = {
+		147D5E6E26FC8C8E006103FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,36 +285,36 @@
 			};
 			name = Release;
 		};
-		147D5E3126F2ABC1006103FD /* Debug */ = {
+		147D5E7026FC8C8E006103FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Emoticon_test/Info.plist;
+				INFOPLIST_FILE = coredata_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Emoticon-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.coredata-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		147D5E3226F2ABC1006103FD /* Release */ = {
+		147D5E7126FC8C8E006103FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Emoticon_test/Info.plist;
+				INFOPLIST_FILE = coredata_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Emoticon-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.coredata-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,20 +324,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		147D5E1726F2ABBD006103FD /* Build configuration list for PBXProject "Emoticon_test" */ = {
+		147D5E5326FC8C88006103FD /* Build configuration list for PBXProject "coredata_test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				147D5E2E26F2ABC1006103FD /* Debug */,
-				147D5E2F26F2ABC1006103FD /* Release */,
+				147D5E6D26FC8C8E006103FD /* Debug */,
+				147D5E6E26FC8C8E006103FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		147D5E3026F2ABC1006103FD /* Build configuration list for PBXNativeTarget "Emoticon_test" */ = {
+		147D5E6F26FC8C8E006103FD /* Build configuration list for PBXNativeTarget "coredata_test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				147D5E3126F2ABC1006103FD /* Debug */,
-				147D5E3226F2ABC1006103FD /* Release */,
+				147D5E7026FC8C8E006103FD /* Debug */,
+				147D5E7126FC8C8E006103FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -357,17 +345,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		147D5E4626FC78B7006103FD /* Model.xcdatamodeld */ = {
+		147D5E6426FC8C88006103FD /* coredata_test.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				147D5E4726FC78B7006103FD /* Model.xcdatamodel */,
+				147D5E6526FC8C88006103FD /* coredata_test.xcdatamodel */,
 			);
-			currentVersion = 147D5E4726FC78B7006103FD /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
+			currentVersion = 147D5E6526FC8C88006103FD /* coredata_test.xcdatamodel */;
+			path = coredata_test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 147D5E1426F2ABBD006103FD /* Project object */;
+	rootObject = 147D5E5026FC8C88006103FD /* Project object */;
 }

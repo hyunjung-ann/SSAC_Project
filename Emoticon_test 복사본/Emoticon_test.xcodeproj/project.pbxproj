@@ -13,10 +13,8 @@
 		147D5E2926F2ABC1006103FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E2826F2ABC1006103FD /* Assets.xcassets */; };
 		147D5E2C26F2ABC1006103FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147D5E2A26F2ABC1006103FD /* LaunchScreen.storyboard */; };
 		147D5E3A26F47851006103FD /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E3926F47851006103FD /* AddViewController.swift */; };
+		147D5E3D26F9CE9F006103FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E3C26F9CE9F006103FD /* Model.swift */; };
 		147D5E4126F9D494006103FD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4026F9D494006103FD /* FirstViewController.swift */; };
-		147D5E4826FC78B9006103FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4626FC78B7006103FD /* Model.xcdatamodeld */; };
-		147D5E4B26FC79C8006103FD /* Emoticon+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4926FC79C8006103FD /* Emoticon+CoreDataClass.swift */; };
-		147D5E4E26FC8287006103FD /* Emoticon+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D5E4D26FC8286006103FD /* Emoticon+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +26,8 @@
 		147D5E2B26F2ABC1006103FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147D5E2D26F2ABC1006103FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		147D5E3926F47851006103FD /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		147D5E3C26F9CE9F006103FD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		147D5E4026F9D494006103FD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		147D5E4726FC78B7006103FD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		147D5E4926FC79C8006103FD /* Emoticon+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emoticon+CoreDataClass.swift"; sourceTree = "<group>"; };
-		147D5E4D26FC8286006103FD /* Emoticon+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emoticon+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +44,6 @@
 		147D5E1326F2ABBD006103FD = {
 			isa = PBXGroup;
 			children = (
-				147D5E4926FC79C8006103FD /* Emoticon+CoreDataClass.swift */,
-				147D5E4D26FC8286006103FD /* Emoticon+CoreDataProperties.swift */,
 				147D5E1E26F2ABBD006103FD /* Emoticon_test */,
 				147D5E1D26F2ABBD006103FD /* Products */,
 			);
@@ -66,6 +60,7 @@
 		147D5E1E26F2ABBD006103FD /* Emoticon_test */ = {
 			isa = PBXGroup;
 			children = (
+				147D5E3B26F9CE73006103FD /* Model */,
 				147D5E1F26F2ABBD006103FD /* AppDelegate.swift */,
 				147D5E2126F2ABBD006103FD /* SceneDelegate.swift */,
 				147D5E4026F9D494006103FD /* FirstViewController.swift */,
@@ -74,9 +69,16 @@
 				147D5E2826F2ABC1006103FD /* Assets.xcassets */,
 				147D5E2A26F2ABC1006103FD /* LaunchScreen.storyboard */,
 				147D5E2D26F2ABC1006103FD /* Info.plist */,
-				147D5E4626FC78B7006103FD /* Model.xcdatamodeld */,
 			);
 			path = Emoticon_test;
+			sourceTree = "<group>";
+		};
+		147D5E3B26F9CE73006103FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				147D5E3C26F9CE9F006103FD /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				147D5E4126F9D494006103FD /* FirstViewController.swift in Sources */,
-				147D5E4B26FC79C8006103FD /* Emoticon+CoreDataClass.swift in Sources */,
+				147D5E3D26F9CE9F006103FD /* Model.swift in Sources */,
 				147D5E2026F2ABBD006103FD /* AppDelegate.swift in Sources */,
-				147D5E4826FC78B9006103FD /* Model.xcdatamodeld in Sources */,
 				147D5E3A26F47851006103FD /* AddViewController.swift in Sources */,
 				147D5E2226F2ABBD006103FD /* SceneDelegate.swift in Sources */,
-				147D5E4E26FC8287006103FD /* Emoticon+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,19 +355,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		147D5E4626FC78B7006103FD /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				147D5E4726FC78B7006103FD /* Model.xcdatamodel */,
-			);
-			currentVersion = 147D5E4726FC78B7006103FD /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 147D5E1426F2ABBD006103FD /* Project object */;
 }

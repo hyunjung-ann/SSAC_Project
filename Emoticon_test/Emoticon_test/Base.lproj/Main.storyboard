@@ -176,7 +176,8 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="yUv-3G-XHl" kind="presentation" identifier="show" id="BwG-jr-rRR"/>
+                                                    <action selector="button:" destination="MLR-ec-tXS" eventType="touchUpInside" id="LrF-rR-q2n"/>
+                                                    <segue destination="yUv-3G-XHl" kind="presentation" identifier="show" modalPresentationStyle="fullScreen" id="BwG-jr-rRR"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U・ᴥ・U  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJq-DL-KQP">
@@ -291,11 +292,11 @@
             <objects>
                 <viewController storyboardIdentifier="AddVC" title="Add view" id="yUv-3G-XHl" customClass="AddViewController" customModule="Emoticon_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kbM-vQ-gUK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wIe-HI-fK1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="otF-jI-L8j"/>
                                 </constraints>
@@ -319,7 +320,7 @@
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X1e-iO-Zex">
-                                <rect key="frame" x="38" y="98" width="338" height="60"/>
+                                <rect key="frame" x="38" y="152" width="338" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="izY-Zg-XKR"/>
                                 </constraints>
@@ -327,7 +328,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivw-I6-Wi0">
-                                <rect key="frame" x="0.0" y="-44" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <color key="backgroundColor" red="0.4904853106" green="0.2723801434" blue="0.88513833279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="FSH-pE-4PS"/>
