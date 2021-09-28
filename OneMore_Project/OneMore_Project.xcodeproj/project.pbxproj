@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148866B72701A84C00987445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866B62701A84C00987445 /* AppDelegate.swift */; };
+		148866B92701A84C00987445 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866B82701A84C00987445 /* SceneDelegate.swift */; };
+		148866BB2701A84C00987445 /* MyMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866BA2701A84C00987445 /* MyMainTabBarController.swift */; };
+		148866BE2701A84C00987445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866BC2701A84C00987445 /* Main.storyboard */; };
+		148866C12701A84C00987445 /* OneMore_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 148866BF2701A84C00987445 /* OneMore_Project.xcdatamodeld */; };
+		148866C32701A85000987445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148866C22701A85000987445 /* Assets.xcassets */; };
+		148866C62701A85000987445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866C42701A85000987445 /* LaunchScreen.storyboard */; };
+		148866CE2701B2F900987445 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866CD2701B2F900987445 /* ToDoViewController.swift */; };
+		148866D02701B30900987445 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866CF2701B30900987445 /* CalendarViewController.swift */; };
+		148866D22701B31500987445 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866D12701B31500987445 /* GoalViewController.swift */; };
+		148866D42701B32500987445 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866D32701B32500987445 /* NotificationViewController.swift */; };
+		148866D62701B32F00987445 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866D52701B32F00987445 /* SettingViewController.swift */; };
+		148866DB2701C1F700987445 /* Todo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866DA2701C1F700987445 /* Todo.storyboard */; };
+		148866DD2701C20D00987445 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866DC2701C20D00987445 /* Calendar.storyboard */; };
+		148866DF2701C21700987445 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866DE2701C21700987445 /* Goal.storyboard */; };
+		148866E12701C22700987445 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866E02701C22700987445 /* Notification.storyboard */; };
+		148866E32701C23700987445 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866E22701C23700987445 /* Setting.storyboard */; };
+		148866EB270225FD00987445 /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866EA270225FD00987445 /* CatagoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		148866B32701A84C00987445 /* OneMore_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMore_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148866B62701A84C00987445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		148866B82701A84C00987445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		148866BA2701A84C00987445 /* MyMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMainTabBarController.swift; sourceTree = "<group>"; };
+		148866BD2701A84C00987445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148866C02701A84C00987445 /* OneMore_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneMore_Project.xcdatamodel; sourceTree = "<group>"; };
+		148866C22701A85000987445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148866C52701A85000987445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		148866C72701A85000987445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148866CD2701B2F900987445 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		148866CF2701B30900987445 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		148866D12701B31500987445 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		148866D32701B32500987445 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		148866D52701B32F00987445 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		148866DA2701C1F700987445 /* Todo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Todo.storyboard; sourceTree = "<group>"; };
+		148866DC2701C20D00987445 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		148866DE2701C21700987445 /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Goal.storyboard; sourceTree = "<group>"; };
+		148866E02701C22700987445 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		148866E22701C23700987445 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		148866EA270225FD00987445 /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148866B02701A84C00987445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148866AA2701A84C00987445 = {
+			isa = PBXGroup;
+			children = (
+				148866B52701A84C00987445 /* OneMore_Project */,
+				148866B42701A84C00987445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148866B42701A84C00987445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148866B32701A84C00987445 /* OneMore_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148866B52701A84C00987445 /* OneMore_Project */ = {
+			isa = PBXGroup;
+			children = (
+				148866B62701A84C00987445 /* AppDelegate.swift */,
+				148866B82701A84C00987445 /* SceneDelegate.swift */,
+				148866D72701B33800987445 /* Control */,
+				148866E9270225BE00987445 /* View */,
+				148866C22701A85000987445 /* Assets.xcassets */,
+				148866C42701A85000987445 /* LaunchScreen.storyboard */,
+				148866C72701A85000987445 /* Info.plist */,
+				148866BF2701A84C00987445 /* OneMore_Project.xcdatamodeld */,
+			);
+			path = OneMore_Project;
+			sourceTree = "<group>";
+		};
+		148866D72701B33800987445 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				148866BA2701A84C00987445 /* MyMainTabBarController.swift */,
+				148866E42702255700987445 /* Todo */,
+				148866E52702256600987445 /* Calendar */,
+				148866E62702256F00987445 /* Goal */,
+				148866E72702257600987445 /* Notification */,
+				148866E82702257E00987445 /* Setting */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		148866E42702255700987445 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				148866CD2701B2F900987445 /* ToDoViewController.swift */,
+				148866EA270225FD00987445 /* CatagoryViewController.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		148866E52702256600987445 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				148866CF2701B30900987445 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		148866E62702256F00987445 /* Goal */ = {
+			isa = PBXGroup;
+			children = (
+				148866D12701B31500987445 /* GoalViewController.swift */,
+			);
+			path = Goal;
+			sourceTree = "<group>";
+		};
+		148866E72702257600987445 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				148866D32701B32500987445 /* NotificationViewController.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		148866E82702257E00987445 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				148866D52701B32F00987445 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		148866E9270225BE00987445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				148866BC2701A84C00987445 /* Main.storyboard */,
+				148866DA2701C1F700987445 /* Todo.storyboard */,
+				148866DC2701C20D00987445 /* Calendar.storyboard */,
+				148866DE2701C21700987445 /* Goal.storyboard */,
+				148866E02701C22700987445 /* Notification.storyboard */,
+				148866E22701C23700987445 /* Setting.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148866B22701A84C00987445 /* OneMore_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148866CA2701A85000987445 /* Build configuration list for PBXNativeTarget "OneMore_Project" */;
+			buildPhases = (
+				148866AF2701A84C00987445 /* Sources */,
+				148866B02701A84C00987445 /* Frameworks */,
+				148866B12701A84C00987445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneMore_Project;
+			productName = OneMore_Project;
+			productReference = 148866B32701A84C00987445 /* OneMore_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148866AB2701A84C00987445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					148866B22701A84C00987445 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 148866AE2701A84C00987445 /* Build configuration list for PBXProject "OneMore_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148866AA2701A84C00987445;
+			productRefGroup = 148866B42701A84C00987445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148866B22701A84C00987445 /* OneMore_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148866B12701A84C00987445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148866DB2701C1F700987445 /* Todo.storyboard in Resources */,
+				148866C62701A85000987445 /* LaunchScreen.storyboard in Resources */,
+				148866C32701A85000987445 /* Assets.xcassets in Resources */,
+				148866DF2701C21700987445 /* Goal.storyboard in Resources */,
+				148866DD2701C20D00987445 /* Calendar.storyboard in Resources */,
+				148866BE2701A84C00987445 /* Main.storyboard in Resources */,
+				148866E12701C22700987445 /* Notification.storyboard in Resources */,
+				148866E32701C23700987445 /* Setting.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148866AF2701A84C00987445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148866EB270225FD00987445 /* CatagoryViewController.swift in Sources */,
+				148866D22701B31500987445 /* GoalViewController.swift in Sources */,
+				148866D02701B30900987445 /* CalendarViewController.swift in Sources */,
+				148866D42701B32500987445 /* NotificationViewController.swift in Sources */,
+				148866CE2701B2F900987445 /* ToDoViewController.swift in Sources */,
+				148866BB2701A84C00987445 /* MyMainTabBarController.swift in Sources */,
+				148866D62701B32F00987445 /* SettingViewController.swift in Sources */,
+				148866B72701A84C00987445 /* AppDelegate.swift in Sources */,
+				148866B92701A84C00987445 /* SceneDelegate.swift in Sources */,
+				148866C12701A84C00987445 /* OneMore_Project.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		148866BC2701A84C00987445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148866BD2701A84C00987445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148866C42701A85000987445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148866C52701A85000987445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		148866C82701A85000987445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		148866C92701A85000987445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148866CB2701A85000987445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneMore_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.OneMore-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		148866CC2701A85000987445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneMore_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.OneMore-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148866AE2701A84C00987445 /* Build configuration list for PBXProject "OneMore_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148866C82701A85000987445 /* Debug */,
+				148866C92701A85000987445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148866CA2701A85000987445 /* Build configuration list for PBXNativeTarget "OneMore_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148866CB2701A85000987445 /* Debug */,
+				148866CC2701A85000987445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		148866BF2701A84C00987445 /* OneMore_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				148866C02701A84C00987445 /* OneMore_Project.xcdatamodel */,
+			);
+			currentVersion = 148866C02701A84C00987445 /* OneMore_Project.xcdatamodel */;
+			path = OneMore_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 148866AB2701A84C00987445 /* Project object */;
+}

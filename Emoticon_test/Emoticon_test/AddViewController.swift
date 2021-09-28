@@ -33,15 +33,6 @@ class AddViewController: UIViewController {
     
     @IBAction func Save(_ sender: UIBarButtonItem) {
     
-    //텍스트 필드에 입력되있는 텍스트를 상수에 저장
-         let emoticon = emoticonTextField.text
-        
-        //새로운 이모티콘 인스턴스를 생성 -> 배열에 저장
-        //위 입력되있던 텍스트를 가져와서 새로운 이모티콘을 생성한 다음 배열에 저장
-        let newEmoticon = Emoticon.init(content: emoticon ?? "")
-        Emoticon.dummyEmoticonList.append(newEmoticon)
-        
-        dismiss(animated: true, completion: nil)
     }
     
     //취소버튼
