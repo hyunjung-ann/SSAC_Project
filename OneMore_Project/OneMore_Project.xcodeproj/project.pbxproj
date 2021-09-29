@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,9 +25,60 @@
 		148866E12701C22700987445 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866E02701C22700987445 /* Notification.storyboard */; };
 		148866E32701C23700987445 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148866E22701C23700987445 /* Setting.storyboard */; };
 		148866EB270225FD00987445 /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148866EA270225FD00987445 /* CatagoryViewController.swift */; };
+		14886710270375C900987445 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488670F270375C900987445 /* MenuCell.swift */; };
+		148867122703761200987445 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148867112703761200987445 /* MenuCell.xib */; };
+		148867142703797000987445 /* FocusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148867132703797000987445 /* FocusView.xib */; };
+		1488671727038B5200987445 /* PagingKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1488671627038B5200987445 /* PagingKit */; };
+		14886790270392D000987445 /* Pods_OneMore_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231A76A43683248DF332695 /* Pods_OneMore_Project.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		148F670C2704605100AE21F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F67062704605000AE21F4 /* iOS Sample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E9827761F0A91F400860828;
+			remoteInfo = "iOS Sample";
+		};
+		148F670E2704605100AE21F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F67062704605000AE21F4 /* iOS Sample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E98278A1F0A91F400860828;
+			remoteInfo = "iOS SampleTests";
+		};
+		148F67102704605100AE21F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F67062704605000AE21F4 /* iOS Sample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E9827951F0A91F400860828;
+			remoteInfo = "iOS SampleUITests";
+		};
+		148F67162704605100AE21F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F66B02704605000AE21F4 /* PagingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EC140BB1F0940F40054B514;
+			remoteInfo = PagingKit;
+		};
+		148F67182704605100AE21F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F66B02704605000AE21F4 /* PagingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EC140C41F0940F40054B514;
+			remoteInfo = PagingKitTests;
+		};
+		148F671A2704605100AE21F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F66B02704605000AE21F4 /* PagingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B28FBB623EFAF90007101B9;
+			remoteInfo = UnitTestHostApplication;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0911B5B9F751BE3A1E0ED413 /* Pods-OneMore_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMore_Project.release.xcconfig"; path = "Target Support Files/Pods-OneMore_Project/Pods-OneMore_Project.release.xcconfig"; sourceTree = "<group>"; };
 		148866B32701A84C00987445 /* OneMore_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMore_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148866B62701A84C00987445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		148866B82701A84C00987445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +99,107 @@
 		148866E02701C22700987445 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
 		148866E22701C23700987445 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		148866EA270225FD00987445 /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
+		1488670F270375C900987445 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		148867112703761200987445 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		148867132703797000987445 /* FocusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FocusView.xib; sourceTree = "<group>"; };
+		148F66952704604F00AE21F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		148F66962704604F00AE21F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148F66982704604F00AE21F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		148F669A2704604F00AE21F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148F669B2704604F00AE21F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		148F669C2704604F00AE21F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F669D2704604F00AE21F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		148F669F2704604F00AE21F4 /* Tips.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Tips.md; sourceTree = "<group>"; };
+		148F66A22704604F00AE21F4 /* PagingMenuViewControllerDataSource.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PagingMenuViewControllerDataSource.codesnippet; sourceTree = "<group>"; };
+		148F66A32704605000AE21F4 /* PagingMenuViewControllerDelegate.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PagingMenuViewControllerDelegate.codesnippet; sourceTree = "<group>"; };
+		148F66A42704605000AE21F4 /* PagingContentViewControllerDataSource.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PagingContentViewControllerDataSource.codesnippet; sourceTree = "<group>"; };
+		148F66A52704605000AE21F4 /* PagingContentViewControllerDelegate.codesnippet */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PagingContentViewControllerDelegate.codesnippet; sourceTree = "<group>"; };
+		148F66A62704605000AE21F4 /* class_diagram.asta */ = {isa = PBXFileReference; lastKnownFileType = file; path = class_diagram.asta; sourceTree = "<group>"; };
+		148F66A72704605000AE21F4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		148F66A92704605000AE21F4 /* PagingContentViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingContentViewControllerTests.swift; sourceTree = "<group>"; };
+		148F66AA2704605000AE21F4 /* PagingMenuViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewControllerTests.swift; sourceTree = "<group>"; };
+		148F66AB2704605000AE21F4 /* PagingMenuViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewTests.swift; sourceTree = "<group>"; };
+		148F66AC2704605000AE21F4 /* ContentAppearanceHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAppearanceHandlerTests.swift; sourceTree = "<group>"; };
+		148F66AD2704605000AE21F4 /* PagingMenuViewCellStub.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagingMenuViewCellStub.xib; sourceTree = "<group>"; };
+		148F66AE2704605000AE21F4 /* PagingMenuFocusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagingMenuFocusView.xib; sourceTree = "<group>"; };
+		148F66AF2704605000AE21F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F66B02704605000AE21F4 /* PagingKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PagingKit.xcodeproj; sourceTree = "<group>"; };
+		148F66B32704605000AE21F4 /* PagingKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PagingKit.podspec; sourceTree = "<group>"; };
+		148F66B42704605000AE21F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		148F66B52704605000AE21F4 /* PagingKit.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = PagingKit.xcworkspace; sourceTree = "<group>"; };
+		148F66B62704605000AE21F4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		148F66B72704605000AE21F4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		148F66B92704605000AE21F4 /* PagingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagingKit.h; sourceTree = "<group>"; };
+		148F66BA2704605000AE21F4 /* Array+NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+NSLayoutConstraint.swift"; sourceTree = "<group>"; };
+		148F66BB2704605000AE21F4 /* PagingKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingKit-Info.plist"; sourceTree = "<group>"; };
+		148F66BC2704605000AE21F4 /* PagingMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController.swift; sourceTree = "<group>"; };
+		148F66BD2704605000AE21F4 /* ContentAppearanceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAppearanceHandler.swift; sourceTree = "<group>"; };
+		148F66BE2704605000AE21F4 /* PagingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingContentViewController.swift; sourceTree = "<group>"; };
+		148F66C12704605000AE21F4 /* UnderlineFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineFocusView.swift; sourceTree = "<group>"; };
+		148F66C22704605000AE21F4 /* TitleLabelMenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelMenuViewCell.swift; sourceTree = "<group>"; };
+		148F66C42704605000AE21F4 /* OverlayMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayMenuCell.swift; sourceTree = "<group>"; };
+		148F66C52704605000AE21F4 /* OverlayFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayFocusView.swift; sourceTree = "<group>"; };
+		148F66C62704605000AE21F4 /* PagingKitProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingKitProxy.swift; sourceTree = "<group>"; };
+		148F66C72704605000AE21F4 /* PagingMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuView.swift; sourceTree = "<group>"; };
+		148F66C92704605000AE21F4 /* TagViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TagViewController.storyboard; sourceTree = "<group>"; };
+		148F66CB2704605000AE21F4 /* iOS_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SampleTests.swift; sourceTree = "<group>"; };
+		148F66CC2704605000AE21F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F66CD2704605000AE21F4 /* SimpleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleViewController.storyboard; sourceTree = "<group>"; };
+		148F66CF2704605000AE21F4 /* ContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewController.swift; sourceTree = "<group>"; };
+		148F66D02704605000AE21F4 /* TagMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMenuCell.swift; sourceTree = "<group>"; };
+		148F66D12704605000AE21F4 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		148F66D22704605000AE21F4 /* NavigationBarMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationBarMenuCell.xib; sourceTree = "<group>"; };
+		148F66D32704605000AE21F4 /* InitializingWithoutStoryboardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitializingWithoutStoryboardViewController.storyboard; sourceTree = "<group>"; };
+		148F66D42704605000AE21F4 /* ViewInsertedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInsertedViewController.swift; sourceTree = "<group>"; };
+		148F66D52704605000AE21F4 /* TwoLineMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineMenuViewController.swift; sourceTree = "<group>"; };
+		148F66D62704605000AE21F4 /* DynamicSizeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DynamicSizeViewController.storyboard; sourceTree = "<group>"; };
+		148F66D72704605000AE21F4 /* ContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentViewController.storyboard; sourceTree = "<group>"; };
+		148F66D82704605000AE21F4 /* NavigationBarFocusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationBarFocusView.xib; sourceTree = "<group>"; };
+		148F66D92704605000AE21F4 /* MenuReloadableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuReloadableViewController.storyboard; sourceTree = "<group>"; };
+		148F66DA2704605000AE21F4 /* MenuReloadableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuReloadableViewController.swift; sourceTree = "<group>"; };
+		148F66DB2704605000AE21F4 /* InitializingWithoutStoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializingWithoutStoryboardViewController.swift; sourceTree = "<group>"; };
+		148F66DC2704605000AE21F4 /* IndicatorFocusMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndicatorFocusMenuView.xib; sourceTree = "<group>"; };
+		148F66DD2704605000AE21F4 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		148F66DE2704605000AE21F4 /* FullscreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FullscreenViewController.storyboard; sourceTree = "<group>"; };
+		148F66DF2704605000AE21F4 /* ContentTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentTableViewController.storyboard; sourceTree = "<group>"; };
+		148F66E02704605000AE21F4 /* ArbitraryNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbitraryNumberViewController.swift; sourceTree = "<group>"; };
+		148F66E12704605000AE21F4 /* NavigationBarFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarFocusView.swift; sourceTree = "<group>"; };
+		148F66E22704605000AE21F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148F66E32704605000AE21F4 /* TagMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagMenuCell.xib; sourceTree = "<group>"; };
+		148F66E42704605000AE21F4 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		148F66E52704605000AE21F4 /* PhotoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoViewController.storyboard; sourceTree = "<group>"; };
+		148F66E62704605000AE21F4 /* ModalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModalViewController.storyboard; sourceTree = "<group>"; };
+		148F66E72704605000AE21F4 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		148F66E82704605000AE21F4 /* OverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
+		148F66EA2704605000AE21F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		148F66EC2704605000AE21F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148F66ED2704605000AE21F4 /* ViewInsertedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewInsertedViewController.storyboard; sourceTree = "<group>"; };
+		148F66EE2704605000AE21F4 /* TagViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TagViewController.storyboard; sourceTree = "<group>"; };
+		148F66EF2704605000AE21F4 /* OverlayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OverlayViewController.storyboard; sourceTree = "<group>"; };
+		148F66F02704605000AE21F4 /* IndicatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IndicatorViewController.storyboard; sourceTree = "<group>"; };
+		148F66F12704605000AE21F4 /* AlignmentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlignmentViewController.storyboard; sourceTree = "<group>"; };
+		148F66F22704605000AE21F4 /* DynamicWidthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicWidthViewController.swift; sourceTree = "<group>"; };
+		148F66F32704605000AE21F4 /* TwoLineMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoLineMenuCell.xib; sourceTree = "<group>"; };
+		148F66F42704605000AE21F4 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		148F66F52704605000AE21F4 /* NavigationBarMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarMenuCell.swift; sourceTree = "<group>"; };
+		148F66F62704605000AE21F4 /* ArbitraryNumberViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArbitraryNumberViewController.storyboard; sourceTree = "<group>"; };
+		148F66F72704605000AE21F4 /* NavigationBarVIewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationBarVIewController.storyboard; sourceTree = "<group>"; };
+		148F66F82704605000AE21F4 /* NavigationBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarViewController.swift; sourceTree = "<group>"; };
+		148F66F92704605000AE21F4 /* IndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorViewController.swift; sourceTree = "<group>"; };
+		148F66FA2704605000AE21F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		148F66FB2704605000AE21F4 /* TwoLineMenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TwoLineMenuViewController.storyboard; sourceTree = "<group>"; };
+		148F66FC2704605000AE21F4 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		148F66FD2704605000AE21F4 /* FullscreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenViewController.swift; sourceTree = "<group>"; };
+		148F66FE2704605000AE21F4 /* TwoLineMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineMenuCell.swift; sourceTree = "<group>"; };
+		148F66FF2704605000AE21F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F67002704605000AE21F4 /* AlignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentViewController.swift; sourceTree = "<group>"; };
+		148F67012704605000AE21F4 /* DynamicSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSizeViewController.swift; sourceTree = "<group>"; };
+		148F67022704605000AE21F4 /* DynamicWidthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DynamicWidthViewController.storyboard; sourceTree = "<group>"; };
+		148F67042704605000AE21F4 /* iOS_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SampleUITests.swift; sourceTree = "<group>"; };
+		148F67052704605000AE21F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F67062704605000AE21F4 /* iOS Sample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "iOS Sample.xcodeproj"; sourceTree = "<group>"; };
+		2231A76A43683248DF332695 /* Pods_OneMore_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneMore_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		357473FB9D0A7B41E1769529 /* Pods-OneMore_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMore_Project.debug.xcconfig"; path = "Target Support Files/Pods-OneMore_Project/Pods-OneMore_Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,17 +207,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14886790270392D000987445 /* Pods_OneMore_Project.framework in Frameworks */,
+				1488671727038B5200987445 /* PagingKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026A4EF7E906FF4D0EA32668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148F66922704604F00AE21F4 /* Checkouts */,
+				2231A76A43683248DF332695 /* Pods_OneMore_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		148866AA2701A84C00987445 = {
 			isa = PBXGroup;
 			children = (
 				148866B52701A84C00987445 /* OneMore_Project */,
 				148866B42701A84C00987445 /* Products */,
+				37E13411F06145F826C28DED /* Pods */,
+				026A4EF7E906FF4D0EA32668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +274,9 @@
 			isa = PBXGroup;
 			children = (
 				148866CD2701B2F900987445 /* ToDoViewController.swift */,
+				148867132703797000987445 /* FocusView.xib */,
+				1488670F270375C900987445 /* MenuCell.swift */,
+				148867112703761200987445 /* MenuCell.xib */,
 				148866EA270225FD00987445 /* CatagoryViewController.swift */,
 			);
 			path = Todo;
@@ -159,6 +327,251 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		148F66922704604F00AE21F4 /* Checkouts */ = {
+			isa = PBXGroup;
+			children = (
+				148F66932704604F00AE21F4 /* PagingKit */,
+			);
+			name = Checkouts;
+			path = Carthage/Checkouts;
+			sourceTree = "<group>";
+		};
+		148F66932704604F00AE21F4 /* PagingKit */ = {
+			isa = PBXGroup;
+			children = (
+				148F66942704604F00AE21F4 /* TestsHostApplication */,
+				148F669E2704604F00AE21F4 /* Documentation */,
+				148F66A02704604F00AE21F4 /* tools */,
+				148F66A72704605000AE21F4 /* LICENSE */,
+				148F66A82704605000AE21F4 /* Tests */,
+				148F66B02704605000AE21F4 /* PagingKit.xcodeproj */,
+				148F66B32704605000AE21F4 /* PagingKit.podspec */,
+				148F66B42704605000AE21F4 /* README.md */,
+				148F66B52704605000AE21F4 /* PagingKit.xcworkspace */,
+				148F66B62704605000AE21F4 /* .gitignore */,
+				148F66B72704605000AE21F4 /* Package.swift */,
+				148F66B82704605000AE21F4 /* Sources */,
+				148F66C82704605000AE21F4 /* iOS Sample */,
+			);
+			path = PagingKit;
+			sourceTree = "<group>";
+		};
+		148F66942704604F00AE21F4 /* TestsHostApplication */ = {
+			isa = PBXGroup;
+			children = (
+				148F66952704604F00AE21F4 /* ViewController.swift */,
+				148F66962704604F00AE21F4 /* Assets.xcassets */,
+				148F66972704604F00AE21F4 /* LaunchScreen.storyboard */,
+				148F66992704604F00AE21F4 /* Main.storyboard */,
+				148F669B2704604F00AE21F4 /* AppDelegate.swift */,
+				148F669C2704604F00AE21F4 /* Info.plist */,
+				148F669D2704604F00AE21F4 /* SceneDelegate.swift */,
+			);
+			path = TestsHostApplication;
+			sourceTree = "<group>";
+		};
+		148F669E2704604F00AE21F4 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				148F669F2704604F00AE21F4 /* Tips.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		148F66A02704604F00AE21F4 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				148F66A12704604F00AE21F4 /* CodeSnippets */,
+				148F66A62704605000AE21F4 /* class_diagram.asta */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		148F66A12704604F00AE21F4 /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+				148F66A22704604F00AE21F4 /* PagingMenuViewControllerDataSource.codesnippet */,
+				148F66A32704605000AE21F4 /* PagingMenuViewControllerDelegate.codesnippet */,
+				148F66A42704605000AE21F4 /* PagingContentViewControllerDataSource.codesnippet */,
+				148F66A52704605000AE21F4 /* PagingContentViewControllerDelegate.codesnippet */,
+			);
+			path = CodeSnippets;
+			sourceTree = "<group>";
+		};
+		148F66A82704605000AE21F4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				148F66A92704605000AE21F4 /* PagingContentViewControllerTests.swift */,
+				148F66AA2704605000AE21F4 /* PagingMenuViewControllerTests.swift */,
+				148F66AB2704605000AE21F4 /* PagingMenuViewTests.swift */,
+				148F66AC2704605000AE21F4 /* ContentAppearanceHandlerTests.swift */,
+				148F66AD2704605000AE21F4 /* PagingMenuViewCellStub.xib */,
+				148F66AE2704605000AE21F4 /* PagingMenuFocusView.xib */,
+				148F66AF2704605000AE21F4 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		148F66B12704605000AE21F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148F67172704605100AE21F4 /* PagingKit.framework */,
+				148F67192704605100AE21F4 /* PagingKitTests.xctest */,
+				148F671B2704605100AE21F4 /* UnitTestHostApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148F66B82704605000AE21F4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				148F66B92704605000AE21F4 /* PagingKit.h */,
+				148F66BA2704605000AE21F4 /* Array+NSLayoutConstraint.swift */,
+				148F66BB2704605000AE21F4 /* PagingKit-Info.plist */,
+				148F66BC2704605000AE21F4 /* PagingMenuViewController.swift */,
+				148F66BD2704605000AE21F4 /* ContentAppearanceHandler.swift */,
+				148F66BE2704605000AE21F4 /* PagingContentViewController.swift */,
+				148F66BF2704605000AE21F4 /* Menu Cells */,
+				148F66C62704605000AE21F4 /* PagingKitProxy.swift */,
+				148F66C72704605000AE21F4 /* PagingMenuView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		148F66BF2704605000AE21F4 /* Menu Cells */ = {
+			isa = PBXGroup;
+			children = (
+				148F66C02704605000AE21F4 /* Underline */,
+				148F66C32704605000AE21F4 /* Overlay */,
+			);
+			path = "Menu Cells";
+			sourceTree = "<group>";
+		};
+		148F66C02704605000AE21F4 /* Underline */ = {
+			isa = PBXGroup;
+			children = (
+				148F66C12704605000AE21F4 /* UnderlineFocusView.swift */,
+				148F66C22704605000AE21F4 /* TitleLabelMenuViewCell.swift */,
+			);
+			path = Underline;
+			sourceTree = "<group>";
+		};
+		148F66C32704605000AE21F4 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				148F66C42704605000AE21F4 /* OverlayMenuCell.swift */,
+				148F66C52704605000AE21F4 /* OverlayFocusView.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		148F66C82704605000AE21F4 /* iOS Sample */ = {
+			isa = PBXGroup;
+			children = (
+				148F66C92704605000AE21F4 /* TagViewController.storyboard */,
+				148F66CA2704605000AE21F4 /* iOS SampleTests */,
+				148F66CD2704605000AE21F4 /* SimpleViewController.storyboard */,
+				148F66CE2704605000AE21F4 /* iOS Sample */,
+				148F67032704605000AE21F4 /* iOS SampleUITests */,
+				148F67062704605000AE21F4 /* iOS Sample.xcodeproj */,
+			);
+			path = "iOS Sample";
+			sourceTree = "<group>";
+		};
+		148F66CA2704605000AE21F4 /* iOS SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				148F66CB2704605000AE21F4 /* iOS_SampleTests.swift */,
+				148F66CC2704605000AE21F4 /* Info.plist */,
+			);
+			path = "iOS SampleTests";
+			sourceTree = "<group>";
+		};
+		148F66CE2704605000AE21F4 /* iOS Sample */ = {
+			isa = PBXGroup;
+			children = (
+				148F66CF2704605000AE21F4 /* ContentTableViewController.swift */,
+				148F66D02704605000AE21F4 /* TagMenuCell.swift */,
+				148F66D12704605000AE21F4 /* ContentViewController.swift */,
+				148F66D22704605000AE21F4 /* NavigationBarMenuCell.xib */,
+				148F66D32704605000AE21F4 /* InitializingWithoutStoryboardViewController.storyboard */,
+				148F66D42704605000AE21F4 /* ViewInsertedViewController.swift */,
+				148F66D52704605000AE21F4 /* TwoLineMenuViewController.swift */,
+				148F66D62704605000AE21F4 /* DynamicSizeViewController.storyboard */,
+				148F66D72704605000AE21F4 /* ContentViewController.storyboard */,
+				148F66D82704605000AE21F4 /* NavigationBarFocusView.xib */,
+				148F66D92704605000AE21F4 /* MenuReloadableViewController.storyboard */,
+				148F66DA2704605000AE21F4 /* MenuReloadableViewController.swift */,
+				148F66DB2704605000AE21F4 /* InitializingWithoutStoryboardViewController.swift */,
+				148F66DC2704605000AE21F4 /* IndicatorFocusMenuView.xib */,
+				148F66DD2704605000AE21F4 /* SimpleViewController.swift */,
+				148F66DE2704605000AE21F4 /* FullscreenViewController.storyboard */,
+				148F66DF2704605000AE21F4 /* ContentTableViewController.storyboard */,
+				148F66E02704605000AE21F4 /* ArbitraryNumberViewController.swift */,
+				148F66E12704605000AE21F4 /* NavigationBarFocusView.swift */,
+				148F66E22704605000AE21F4 /* Assets.xcassets */,
+				148F66E32704605000AE21F4 /* TagMenuCell.xib */,
+				148F66E42704605000AE21F4 /* TagViewController.swift */,
+				148F66E52704605000AE21F4 /* PhotoViewController.storyboard */,
+				148F66E62704605000AE21F4 /* ModalViewController.storyboard */,
+				148F66E72704605000AE21F4 /* ModalViewController.swift */,
+				148F66E82704605000AE21F4 /* OverlayViewController.swift */,
+				148F66E92704605000AE21F4 /* LaunchScreen.storyboard */,
+				148F66EB2704605000AE21F4 /* Main.storyboard */,
+				148F66ED2704605000AE21F4 /* ViewInsertedViewController.storyboard */,
+				148F66EE2704605000AE21F4 /* TagViewController.storyboard */,
+				148F66EF2704605000AE21F4 /* OverlayViewController.storyboard */,
+				148F66F02704605000AE21F4 /* IndicatorViewController.storyboard */,
+				148F66F12704605000AE21F4 /* AlignmentViewController.storyboard */,
+				148F66F22704605000AE21F4 /* DynamicWidthViewController.swift */,
+				148F66F32704605000AE21F4 /* TwoLineMenuCell.xib */,
+				148F66F42704605000AE21F4 /* ContentTableViewCell.swift */,
+				148F66F52704605000AE21F4 /* NavigationBarMenuCell.swift */,
+				148F66F62704605000AE21F4 /* ArbitraryNumberViewController.storyboard */,
+				148F66F72704605000AE21F4 /* NavigationBarVIewController.storyboard */,
+				148F66F82704605000AE21F4 /* NavigationBarViewController.swift */,
+				148F66F92704605000AE21F4 /* IndicatorViewController.swift */,
+				148F66FA2704605000AE21F4 /* AppDelegate.swift */,
+				148F66FB2704605000AE21F4 /* TwoLineMenuViewController.storyboard */,
+				148F66FC2704605000AE21F4 /* PhotoViewController.swift */,
+				148F66FD2704605000AE21F4 /* FullscreenViewController.swift */,
+				148F66FE2704605000AE21F4 /* TwoLineMenuCell.swift */,
+				148F66FF2704605000AE21F4 /* Info.plist */,
+				148F67002704605000AE21F4 /* AlignmentViewController.swift */,
+				148F67012704605000AE21F4 /* DynamicSizeViewController.swift */,
+				148F67022704605000AE21F4 /* DynamicWidthViewController.storyboard */,
+			);
+			path = "iOS Sample";
+			sourceTree = "<group>";
+		};
+		148F67032704605000AE21F4 /* iOS SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148F67042704605000AE21F4 /* iOS_SampleUITests.swift */,
+				148F67052704605000AE21F4 /* Info.plist */,
+			);
+			path = "iOS SampleUITests";
+			sourceTree = "<group>";
+		};
+		148F67072704605000AE21F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148F670D2704605100AE21F4 /* iOS Sample.app */,
+				148F670F2704605100AE21F4 /* iOS SampleTests.xctest */,
+				148F67112704605100AE21F4 /* iOS SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E13411F06145F826C28DED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				357473FB9D0A7B41E1769529 /* Pods-OneMore_Project.debug.xcconfig */,
+				0911B5B9F751BE3A1E0ED413 /* Pods-OneMore_Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,15 +579,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 148866CA2701A85000987445 /* Build configuration list for PBXNativeTarget "OneMore_Project" */;
 			buildPhases = (
+				ECF3EC573B8993E873445861 /* [CP] Check Pods Manifest.lock */,
 				148866AF2701A84C00987445 /* Sources */,
 				148866B02701A84C00987445 /* Frameworks */,
 				148866B12701A84C00987445 /* Resources */,
+				2207B832632EBB052AC0154F /* [CP] Embed Pods Frameworks */,
+				148F671C2704607B00AE21F4 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = OneMore_Project;
+			packageProductDependencies = (
+				1488671627038B5200987445 /* PagingKit */,
+			);
 			productName = OneMore_Project;
 			productReference = 148866B32701A84C00987445 /* OneMore_Project.app */;
 			productType = "com.apple.product-type.application";
@@ -202,14 +621,72 @@
 				Base,
 			);
 			mainGroup = 148866AA2701A84C00987445;
+			packageReferences = (
+				1488671527038B5200987445 /* XCRemoteSwiftPackageReference "PagingKit" */,
+			);
 			productRefGroup = 148866B42701A84C00987445 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 148F67072704605000AE21F4 /* Products */;
+					ProjectRef = 148F67062704605000AE21F4 /* iOS Sample.xcodeproj */;
+				},
+				{
+					ProductGroup = 148F66B12704605000AE21F4 /* Products */;
+					ProjectRef = 148F66B02704605000AE21F4 /* PagingKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				148866B22701A84C00987445 /* OneMore_Project */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		148F670D2704605100AE21F4 /* iOS Sample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Sample.app";
+			remoteRef = 148F670C2704605100AE21F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		148F670F2704605100AE21F4 /* iOS SampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS SampleTests.xctest";
+			remoteRef = 148F670E2704605100AE21F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		148F67112704605100AE21F4 /* iOS SampleUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS SampleUITests.xctest";
+			remoteRef = 148F67102704605100AE21F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		148F67172704605100AE21F4 /* PagingKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PagingKit.framework;
+			remoteRef = 148F67162704605100AE21F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		148F67192704605100AE21F4 /* PagingKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PagingKitTests.xctest;
+			remoteRef = 148F67182704605100AE21F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		148F671B2704605100AE21F4 /* UnitTestHostApplication.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UnitTestHostApplication.app;
+			remoteRef = 148F671A2704605100AE21F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		148866B12701A84C00987445 /* Resources */ = {
@@ -219,6 +696,8 @@
 				148866DB2701C1F700987445 /* Todo.storyboard in Resources */,
 				148866C62701A85000987445 /* LaunchScreen.storyboard in Resources */,
 				148866C32701A85000987445 /* Assets.xcassets in Resources */,
+				148867142703797000987445 /* FocusView.xib in Resources */,
+				148867122703761200987445 /* MenuCell.xib in Resources */,
 				148866DF2701C21700987445 /* Goal.storyboard in Resources */,
 				148866DD2701C20D00987445 /* Calendar.storyboard in Resources */,
 				148866BE2701A84C00987445 /* Main.storyboard in Resources */,
@@ -228,6 +707,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		148F671C2704607B00AE21F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PagingKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		2207B832632EBB052AC0154F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneMore_Project/Pods-OneMore_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneMore_Project/Pods-OneMore_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneMore_Project/Pods-OneMore_Project-frameworks.sh\"\n";
+		};
+		ECF3EC573B8993E873445861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneMore_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		148866AF2701A84C00987445 /* Sources */ = {
@@ -239,6 +777,7 @@
 				148866D02701B30900987445 /* CalendarViewController.swift in Sources */,
 				148866D42701B32500987445 /* NotificationViewController.swift in Sources */,
 				148866CE2701B2F900987445 /* ToDoViewController.swift in Sources */,
+				14886710270375C900987445 /* MenuCell.swift in Sources */,
 				148866BB2701A84C00987445 /* MyMainTabBarController.swift in Sources */,
 				148866D62701B32F00987445 /* SettingViewController.swift in Sources */,
 				148866B72701A84C00987445 /* AppDelegate.swift in Sources */,
@@ -264,6 +803,38 @@
 				148866C52701A85000987445 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		148F66972704604F00AE21F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148F66982704604F00AE21F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		148F66992704604F00AE21F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148F669A2704604F00AE21F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148F66E92704605000AE21F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148F66EA2704605000AE21F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		148F66EB2704605000AE21F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148F66EC2704605000AE21F4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,6 +875,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3VP8HUZKTW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -365,6 +937,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3VP8HUZKTW;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -387,6 +960,7 @@
 		};
 		148866CB2701A85000987445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357473FB9D0A7B41E1769529 /* Pods-OneMore_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,6 +970,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "test.OneMore-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -405,6 +980,7 @@
 		};
 		148866CC2701A85000987445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0911B5B9F751BE3A1E0ED413 /* Pods-OneMore_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,6 +990,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "test.OneMore-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -443,6 +1020,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1488671527038B5200987445 /* XCRemoteSwiftPackageReference "PagingKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kazuhiro4949/PagingKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1488671627038B5200987445 /* PagingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1488671527038B5200987445 /* XCRemoteSwiftPackageReference "PagingKit" */;
+			productName = PagingKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		148866BF2701A84C00987445 /* OneMore_Project.xcdatamodeld */ = {

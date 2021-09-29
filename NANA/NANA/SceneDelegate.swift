@@ -1,12 +1,11 @@
 //
 //  SceneDelegate.swift
-//  OneMore_Project
+//  NANA
 //
-//  Created by 안현정 on 2021/09/27.
+//  Created by 안현정 on 2021/09/29.
 //
 
 import UIKit
-import PagingKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -46,9 +45,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
-
-        // Save changes in the application's managed object context when the application transitions to the background.
- (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
 

@@ -1,12 +1,11 @@
 //
 //  CatagoryViewController.swift
-//  OneMore_Project
+//  NANA
 //
-//  Created by 안현정 on 2021/09/28.
+//  Created by 안현정 on 2021/09/29.
 //
 
 import UIKit
-import PagingKit
 
 class CatagoryViewController: UIViewController {
 
@@ -15,8 +14,6 @@ class CatagoryViewController: UIViewController {
         
         self.navigationController?.navigationBar.tintColor = .white //backbutton 색 커스텀
         self.navigationController?.navigationBar.topItem?.title = "" //backbutton 텍스트 없애기
-        //https://zeddios.tistory.com/29
-
 
         // Do any additional setup after loading the view.
     }
