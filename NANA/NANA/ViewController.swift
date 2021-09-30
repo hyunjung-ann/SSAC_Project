@@ -9,6 +9,9 @@ import UIKit
 import PagingKit
 
 class ViewController: UIViewController {
+
+    
+
     
     static var viewController: (UIColor) -> UIViewController = { (color) in
           let vc = UIViewController()
@@ -16,8 +19,32 @@ class ViewController: UIViewController {
            return vc
        }
        
-       var dataSource = [(menuTitle: "전체", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))), (menuTitle: "기본 카테고리", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))), (menuTitle: "취미 🕹", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))),(menuTitle: "", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))),(menuTitle: "", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1)))]
+   // var dataSource = [(menuTitle: "전체", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))), (menuTitle: "기본 카테고리", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))), (menuTitle: "취미 🕹", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))),(menuTitle: "", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1))),(menuTitle: "", vc: viewController(#colorLiteral(red: 0.01809065173, green: 0.08367160382, blue: 0.1579357816, alpha: 1)))]
     
+    var dataSource = [(menu:String, content: UIViewController)]() {
+        didSet {
+            menuViewController.reloadData()
+            contentViewController.reloadData()
+            
+        }
+    }
+    
+    
+    lazy var firstLoad: (() -> Void)? = { [weak self, menuViewController, contentViewController] in
+        menuViewController?.reloadData()
+        contentViewController?.reloadData()
+            self?.firstLoad = nil
+   
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        firstLoad?()
+    }
+
+    
+    
+
     var menuViewController: PagingMenuViewController!
        var contentViewController: PagingContentViewController!
 
@@ -35,7 +62,17 @@ class ViewController: UIViewController {
         menuViewController.reloadData()
         contentViewController.reloadData()
         // Do any additional setup after loading the view.
+        
+        dataSource = makeDataSource()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        let todo = Storage.restoreTodo("test.json")
+//        print("---> restore from disk: \(todo)")
+    }
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
          if let vc = segue.destination as? PagingMenuViewController {
@@ -48,9 +85,28 @@ class ViewController: UIViewController {
              contentViewController.delegate = self
          }
      }
-
+    
+    fileprivate func makeDataSource() -> [(menu:String, content: UIViewController)] {
+        let myMenuArray = ["오늘", "예정","취미 🕹","",""]
+        
+        return myMenuArray.map{
+            let title = $0
+            
+            switch title {
+            case "전체":
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "FirstVC") as! FirstVC
+                return (menu: title, content: vc)
+            default:
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "FirstVC") as! FirstVC
+                return (menu: title, content: vc)
+            }
+        }
+    
 
 }
+
+}
+
 
 //MARK:- 메뉴 데이터 소스 / 델리겟
 
@@ -67,7 +123,7 @@ extension ViewController: PagingMenuViewControllerDataSource {
       let cell = viewController.dequeueReusableCell(withReuseIdentifier: "MenuCell", for: index) as! MenuCell
        // let cell = viewController.dequeueReusableCell(withReuseIdentifier: "TitleLabelMenuCell", for: index) as! TitleLabelMenuViewCell
         
-        cell.titleLabel.text = dataSource[index].menuTitle
+        cell.titleLabel.text = dataSource[index].menu
         cell.titleLabel.textColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
        cell.titleLabel.highlightedTextColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         return cell
@@ -88,7 +144,7 @@ extension ViewController: PagingContentViewControllerDataSource {
     }
     
     func contentViewController(viewController: PagingContentViewController, viewControllerAt index: Int) -> UIViewController {
-        return dataSource[index].vc
+        return dataSource[index].content
     }
 }
 
@@ -98,3 +154,4 @@ extension ViewController: PagingContentViewControllerDelegate {
         menuViewController.scroll(index: index, percent: percent, animated: false)
     }
 }
+
