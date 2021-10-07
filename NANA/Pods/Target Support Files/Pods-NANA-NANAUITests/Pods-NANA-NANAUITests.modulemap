@@ -1,0 +1,6 @@
+framework module Pods_NANA_NANAUITests {
+  umbrella header "Pods-NANA-NANAUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
