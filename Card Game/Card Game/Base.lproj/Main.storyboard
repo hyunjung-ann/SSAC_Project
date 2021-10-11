@@ -84,10 +84,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="uWd-Eb-jAn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BDM-rE-Z4m"/>
+                            <constraint firstItem="uWd-Eb-jAn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BDM-rE-Z4m"/>
                             <constraint firstItem="uHO-Bc-hqE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BIR-xW-q1z"/>
                             <constraint firstAttribute="bottom" secondItem="uHO-Bc-hqE" secondAttribute="bottom" id="IZ9-Ue-qj8"/>
-                            <constraint firstItem="uWd-Eb-jAn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nfp-XA-OQs"/>
+                            <constraint firstItem="uWd-Eb-jAn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Nfp-XA-OQs"/>
                             <constraint firstItem="uWd-Eb-jAn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="msG-mW-Lez"/>
                             <constraint firstItem="uHO-Bc-hqE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q15-ob-GtX"/>
                             <constraint firstItem="uWd-Eb-jAn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tfp-pm-WJk"/>
@@ -101,7 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="107" y="75"/>
+            <point key="canvasLocation" x="106.25" y="75"/>
         </scene>
     </scenes>
     <resources>

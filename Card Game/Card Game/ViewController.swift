@@ -26,7 +26,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     var timer: Timer?
     //사용자에게 얼마나 많은 시간을 주어야하는지 설정
-    var milliseconds:Float = 30 * 1000 //10초
+    var milliseconds:Float = 60 * 1000 //10초
 
   
     override func viewDidLoad() {
@@ -69,7 +69,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let seconds = String(format: "%.2f", milliseconds/1000)
         
         //label 설정
-        var label = timerLabel
+        let label = timerLabel
         label?.font = UIFont.boldSystemFont(ofSize: 16)
         timerLabel.text = "💣 Time : \(seconds)"
         
